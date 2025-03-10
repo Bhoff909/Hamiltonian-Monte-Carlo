@@ -1,2 +1,4 @@
 # Hamiltonian-Monte-Carlo
 Final report for Bayesian Statistics course, describing and implementing Hamiltonian Monte Carlo.
+
+Markov Chain Monte Carlo (MCMC) algorithms are used to sample from probability distributions when direct sampling is not feasible, due primarilly to the complexity of the target distribution. Metropolis-Hastings is a common MCMC algorithm that can be computationally expensive to run; trace plots of the samples obtained via Metropolis-Hastings tend to exhibit so-called "random walk" behavior as the algorithm slowly traverses the target density. Hamiltonian Monte Carlo improves on the Metropolis-Hastings algorithm by using principles of Hamiltonian mechanics to accelerate the density traversal process. My work in this report is found in the section titled "A Familiar Example," which applies Hamiltonian Monte Carlo to a problem previously approached via Metropolis-Hastings, and the conclusion.
